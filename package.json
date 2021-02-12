@@ -1,0 +1,43 @@
+{
+  "name": "wolox",
+  "version": "1.0.0",
+  "description": "Technical interview wolox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmejia1221/wolox_landing_page.git"
+  },
+  "keywords": [
+    "wolox"
+  ],
+  "author": "John Mejía",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmejia1221/wolox_landing_page/issues"
+  },
+  "homepage": "https://github.com/jmejia1221/wolox_landing_page#readme",
+  "dependencies": {
+    "angular": "^1.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^1.3.6",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
